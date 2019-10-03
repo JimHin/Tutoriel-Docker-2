@@ -22,9 +22,9 @@ CMD ["/run.sh"]
 
 COPY .  /var/www/html
 
--le . signifie:  copie tout ce qui se trouve au niveau du fichier Dockerfile
-                                                              Sous entendu "votre projet"
--puis vous indiquez le chemin de la racine du serveur apache du conteneur
+Le . signifie:  copie tout ce qui se trouve au niveau du fichier Dockerfile
+Le reste de la déclaration est le chemin de la racine du serveur apache du conteneur
+
 -ensuite vous sauvegardez votre fichier Dockerfile
 -et dans le terminal vous vous rendez là où se trouve votre fichier Dockerfile
   Dans votre répertoire de projet si vous avez bien suivi

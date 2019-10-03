@@ -29,3 +29,8 @@ Le reste de la déclaration est le chemin de la racine du serveur apache du cont
   Dans votre répertoire de projet si vous avez bien suivi
 - puis vous tapez :     docker build .
 - N'oubliez pas le .
+
+
+Vous commencez à maîtriser la construction d'un container mais vous pouvez en créer plusieurs et les faire communiquer.
+un conteneur apache  qui communique avec un conteneur mysql etc...
+C'est un fichier docker-compose.yml qui fera le boulot ------------->https://github.com/JimKrow/Tutoriel-Docker-3

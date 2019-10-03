@@ -21,7 +21,7 @@ CMD ["/run.sh"]
 
 COPY .  /var/www/html
 
-Le . signifie:  copie tout ce qui se trouve au niveau du fichier Dockerfile
+Le . signifie:  copie tout ce qui se trouve au niveau du fichier Dockerfile dans ...
 Le reste de la déclaration est le chemin de la racine du serveur apache du conteneur
 
 -ensuite vous sauvegardez votre fichier Dockerfile

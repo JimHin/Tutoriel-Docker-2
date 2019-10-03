@@ -8,15 +8,17 @@ Je posterai un tuto sous peu le temps que vous testiez cela
 le build d'une image docker vous permet de la mettre sous forme de repositorie sur Dockerhub
 donc voici la manip
 Vous créez dans le répertoire de votre projet un fichier Dockerfile ou DOCKERFILE (au minimum le D majuscule et pas d'extension)
-copiez ceci
+écrivez ceci:
+
 FROM mattrayner/lamp:latest-1804
 
-# Your custom commands
+//ici viendra vos déclarations
 
 CMD ["/run.sh"]
-FROM signifie qu'on appelle l'image lamp sur le dockerhub de mattrayner
-CMD lance le serveur déclaré
-entre ces deux bornes vous allez utilisé la commande COPY
+
+- FROM signifie qu'on appelle l'image lamp sur le dockerhub de mattrayner
+- CMD lance le serveur déclaré
+- entre ces deux bornes vous allez utiliser la commande COPY
 COPY .  /var/www/html
 le . signifie copie moi tout ce qui se trouve au niveau du fichier dockerfile
 Sous entendu "votre projet"

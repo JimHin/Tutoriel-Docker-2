@@ -1,13 +1,12 @@
 # Redaction-du-DOCKERFILE
 Seconde étape de maîtrise de Docker
-docker ps -a       (pour visualiser les conteneurs crées avec leur ID , noms etc...)
-docker start ID du conteneur    (les 3 premiers caractères de l'ID suffisent d'ailleurs)
-docker stop ID du conteneur    (pareil les 3 premiers caractères de l'ID suffisent)
-Par la suite il faut apprendre à build une image avec un DOCKERFILE
-Je posterai un tuto sous peu le temps que vous testiez cela
-le build d'une image docker vous permet de la mettre sous forme de repositorie sur Dockerhub
-donc voici la manip
-Vous créez dans le répertoire de votre projet un fichier Dockerfile ou DOCKERFILE (au minimum le D majuscule et pas d'extension)
+
+le build d'une image docker vous permet de la mettre sous forme de repositorie sur Dockerhub.
+Voici la manip:
+
+
+Vous créez dans le répertoire de votre projet un fichier Dockerfile ou DOCKERFILE 
+(au minimum le D majuscule et pas d'extension)
 écrivez ceci:
 
 FROM mattrayner/lamp:latest-1804

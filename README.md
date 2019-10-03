@@ -19,12 +19,14 @@ CMD ["/run.sh"]
 - FROM signifie qu'on appelle l'image lamp sur le dockerhub de mattrayner
 - CMD lance le serveur déclaré
 - entre ces deux bornes vous allez utiliser la commande COPY
+
 COPY .  /var/www/html
-le . signifie copie moi tout ce qui se trouve au niveau du fichier dockerfile
-Sous entendu "votre projet"
-puis vous indiquez le chemin de la racine du serveur apache du conteneur
-ensuite vous sauvegardez votre fichier Dockerfile
-et dans le terminal vous vous rendez là où se trouve votre fichier Dockerfile
-Dans votre répertoire de projet si vous avez bien suivi
-puis vous tapez :     docker build .
-N'oubliez pas le .
+
+-le . signifie:  copie tout ce qui se trouve au niveau du fichier Dockerfile
+                                                              Sous entendu "votre projet"
+-puis vous indiquez le chemin de la racine du serveur apache du conteneur
+-ensuite vous sauvegardez votre fichier Dockerfile
+-et dans le terminal vous vous rendez là où se trouve votre fichier Dockerfile
+  Dans votre répertoire de projet si vous avez bien suivi
+- puis vous tapez :     docker build .
+- N'oubliez pas le .

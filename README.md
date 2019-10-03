@@ -24,8 +24,8 @@ COPY .  /var/www/html
 Le . signifie:  copie tout ce qui se trouve au niveau du fichier Dockerfile dans ...
 Le reste de la déclaration est le chemin de la racine du serveur apache du conteneur
 
--ensuite vous sauvegardez votre fichier Dockerfile
--et dans le terminal vous vous rendez là où se trouve votre fichier Dockerfile
+- ensuite vous sauvegardez votre fichier Dockerfile
+- et dans le terminal vous vous rendez là où se trouve votre fichier Dockerfile
   Dans votre répertoire de projet si vous avez bien suivi
 - puis vous tapez :     docker build .
 - N'oubliez pas le .
